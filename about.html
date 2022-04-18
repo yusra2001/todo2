@@ -11,49 +11,42 @@
 <body>
     <header>
         
-            <a class="navbar-brand" href="/">
-                <div class="logo-image">
-                      <img src="/home/yusra_2001/todo2/to-do-list-or-checklistlogo.jpg" class="img-fluid">
-                </div>
-          </a>
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-        </nav>
-    </header>
+        <a class="navbar-brand" href="/">
+            <div class="logo">
+                  <!-- <img src="to-do-list-or-checklistlogo.jpg" > -->
+            </div>
+      </a>
+      
+      <img class="logo" src="to-do-list-or-checklistlogo.jpg"/>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+    </nav>
+</header>
     <main>
         <h1>your profile</h1>
-        <img src="/images.jpg">
+        <img src="images.jpg"/>
         <h2>your name</h2>
         <h2>yusra hadidi</h2>
         <h3>today</h3>
         <h3>17-04-2022</h3>
-        <h1>To Do List</h1>
-        <h2>contact me</h2>
-        <div class="kwes-form">
+        <h1>contact me</h1>
+        <div class="kwes-form" style="margin:10%">
             <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
               <label for="name">Name</label>
               <input type="text" name="name" id="name" rules="required">
               <label for="email">E-mail</label>
               <input type="email" name="email" id="email" rules="required|email|max:255">
               <label for="message">Message</label>
+              <label for="phone">phone</label>
+              <input type="number" name="number" id="number" rules="required">
               <textarea name="message" id="message" rules="required"></textarea>
               <button type="submit">Submit</button>
             </form>
           </div>
             
 
-<div class="kwes-form">
-    <form method="POST" action="https://kwes.io/api/foreign/forms/youruniqueid">
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" rules="required">
-      <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" rules="required|email|max:255">
-      <label for="message">Message</label>
-      <textarea name="message" id="message" rules="required"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+
     
         
 
