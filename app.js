@@ -28,5 +28,4 @@ if (userage <= 0) {
 
 }
 
-
 var usergender = prompt("DO wants to skip the welcoming message?")
