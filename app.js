@@ -27,14 +27,6 @@ if (userage <= 0) {
     alert("You are under age!")
 
 }
-////////////////////////
-var password = prompt("enter your password 1234")
-if (password == 1234) {
-    alert("correct password")
-}
-else {
-    alert("wrong password,try again")
-}
 ////////////////
 //////////////
 
