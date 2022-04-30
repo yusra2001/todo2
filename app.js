@@ -19,12 +19,6 @@ else {
 
 }
 
-
-
-
-
-
-
 //////////////
 console.log("test");
 ////////////////
@@ -33,6 +27,5 @@ if (userage <= 0) {
     alert("You are under age!")
 
 }
-
 
 var usergender = prompt("DO wants to skip the welcoming message?")
