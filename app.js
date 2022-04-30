@@ -3,7 +3,6 @@ console.log("yusra");
 var username = prompt("what's yout name?");
 console.log(username);
 //////////////////////
-
 var usergender = prompt("What is your gender? Male/Female")
 if (usergender == "Male" || usergender == "male") {
  console.log(usergender);
@@ -18,7 +17,6 @@ else {
     alert(`welcome to my website `)
 
 }
-
 //////////////
 console.log("test");
 ////////////////
@@ -30,10 +28,10 @@ if (userage <= 0) {
 ////////////////
 //////////////
 
+
+
 var usergender = prompt("DO wants to skip the welcoming message?")
 ////////////////
-
-
 var usergender = prompt("What is your gender? Male/Female")
 if (usergender == "Male" || usergender == "male") {
  console.log(usergender);
