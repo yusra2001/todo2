@@ -60,5 +60,11 @@ else {
 //        alert(`welcome to my website `)
    
 //    }
+var arr = [];                               // define our array
+ 
+for (var i = 0; i < 4; i++) {              
+  arr.push(prompt("are you a robot? yes /no")); // push the value into the array
+  arr.push(prompt("do tou want to continue in this site? yes /no"));
+    arr.push(prompt("are you sure all your answers are correct? yes /no"));
 
 // /////////////////////////
